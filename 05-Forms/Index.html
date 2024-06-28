@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Forms</title>
+  </head>
+  <body>
+    <h1>Html Forms</h1>
+    <!-- Redirecting to youtube search -->
+    <h3>Youtube</h3>
+    <!-- https://www.youtube.com/results?search_query=web+development -->
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" />
+      <button>Search on Youtube</button>
+    </form>
+    <h3>Google</h3>
+    <!-- https://www.google.com/search?q=okay -->
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <button>Search on Google</button>
+    </form>
+    <h3>Amazon</h3>
+    <!-- https://www.amazon.com/s?k=book -->
+    <form action="https://www.amazon.com/s">
+      <input type="text" name="q" />
+      <button>Search on Amazon</button>
+    </form>
+    <h3>Flipkart</h3>
+    <!-- https://www.flipkart.com/search?q=laptop -->
+    <form action="https://www.flipkart.com/search">
+      <input type="text" name="q" />
+      <button>Search on Flipkart</button>
+    </form>
+    <h3>My Form</h3>
+    <!-- https://www.flipkart.com/search?q=laptop -->
+    <form action="/">
+      <input type="text" name="a" />
+      <input type="text" name="b" />
+      <button>Searh</button>
+    </form>
+    <!-- <h3>Dummy Flipkart Search</h3>
+    Testing with invalid entries
+    <form action="https://www.flipkart.com/search">
+      <input type="text" name="q" />
+      <input type="text" name="a" />
+      <input type="text" name="b" />
+      <button>Search on Flipkart</button>
+    </form> -->
+    <h3>Form input types</h3>
+    <!-- https://www.flipkart.com/search?q=laptop -->
+    <form action="/">
+      Text : <input type="text" placeholder="Please enter your name" required />
+      <br />
+      Email : <input type="email" />
+      <br />
+      Password : <input type="password" minlength="6" />
+      <br />
+      Number : <input type="number" min="100" />
+      <br />
+      Checkbox : <input type="checkbox" />
+      <br />
+      Color : <input type="color" />
+      <br />
+      Date : <input type="date" />
+      <br />
+      File : <input type="file" />
+      <br />
+      Time : <input type="time" />
+      <br />
+      Telephone : <input type="tel" />
+      <br />
+      Radio : <input type="radio" />
+      <br />
+      Submit : <input type="submit" />
+      <br />
+      <button>Searh</button>
+      <br />
+      <br />
+      <br />
+      <!-- button types -->
+      <p>- - - Button Types - - -</p>
+      <button type="button">button</button>
+      <button type="menu">menu</button>
+      <button type="reset">reset</button>
+      <button type="submit">submit</button>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <p>- - - Form labels - - -</p>
+      <p>Choose one</p>
+      <label for="boy">Boy</label>
+      <input id="boy" type="radio" />
+      <label for="girl">Girl</label>
+      <input id="girl" type="radio" />
+    </form>
+  </body>
+</html>
