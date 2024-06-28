@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dummy Form</title>
+  </head>
+  <body>
+    <h2>Login Form</h2>
+    <form action="/">
+      <div>
+        <div>
+          <label for="name">Name</label>
+        </div>
+        <input id="name" type="text" placeholder="Enter your name" required />
+      </div>
+      <br />
+      <div>
+        <div>
+          <label for="email">Email</label>
+        </div>
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <div>Enter your gender</div>
+        <input type="radio" id="male" name="gender" value="MALE" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="FEMALE" />
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="gender" value="OTHERS" />
+        <label for="others">Others</label>
+      </div>
+      <br />
+      <div>
+        <div>
+          <label for="mobile">Mobile Number</label>
+        </div>
+        <input
+          id="mobile"
+          type="tel"
+          placeholder="Enter your mobile number"
+          required
+          minlength="10"
+          maxlength="10"
+        />
+      </div>
+      <br />
+      <div>
+        <div>
+          <label for="password">Password</label>
+        </div>
+        <input
+          id="password"
+          type="password"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <input id="check" type="checkbox" required />
+        <label for="check">Agree to terms and conditions</label>
+      </div>
+      <br />
+      <button title="Click to Reset" type="reset">Reset</button>
+
+      <button title="Click to Submit">Submit</button>
+    </form>
+  </body>
+</html>
