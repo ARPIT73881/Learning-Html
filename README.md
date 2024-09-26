@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-   <a href="https://www.youtube.com/playlist?list=PLfEr2kn3s-bpuh9XfcDlXP6weTISBWzvQ" target="_blank"><img src="https://i.ibb.co/zhzbWSS/html.png" alt="Main-Cover" border="0"></a>
+   <a href="https://www.youtube.com/playlist?list=PLfEr2kn3s-bpuh9XfcDlXP6weTISBWzvQ" target="_blank"><img src="https://github.com/user-attachments/assets/84c6d637-0516-4f45-9855-ef254e713962" alt="Main-Cover" border="0"></a>
   <br />
 
 # Learning Html
